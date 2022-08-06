@@ -13,4 +13,5 @@ check_integer <- function(input)
 }
 
 my_input <- as.integer(readline(prompt = "Enter the number"))              #Reading the input from the user by using the readline() method and as.integer method takes the input from readline method()
+                                                                           #Prompt argument inside the readline() method displays a message in the console what to input 
 check_integer(my_input)
